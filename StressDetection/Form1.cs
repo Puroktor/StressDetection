@@ -196,7 +196,7 @@ namespace TestWinfromsFramework
                     labelLFP.Text = lfp.ToString("P");
                     labelHFP.Text = hfp.ToString("P");
 
-                    if (lfp < 0.60)
+                    if (lfp < 0.63)
                         stressPanel.BackColor = Color.Green;
                     else if (lfp < 0.7)
                         stressPanel.BackColor = Color.Yellow;
